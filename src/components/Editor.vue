@@ -1,5 +1,6 @@
 <template>
   <div class="editor">
+    <p>Select your server: </p>
     <div id="toolbar">
       <button class="ql-script" value="sub"></button>
       <button class="ql-check-atf" style="width: 80px; border: 1px solid black">

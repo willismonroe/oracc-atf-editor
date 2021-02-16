@@ -1,26 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div class="content">
+  Editor here:
+  <Editor />
+</div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts">
+import { defineComponent } from 'vue';
 
-export default {
+import Editor from '@/components/Editor.vue'
+
+export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    Editor
   }
-}
+});
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.content {
+margin: 20px;
+padding: 10px;
+background-color: rgb(230, 222, 222);
+border-radius: 5px;
 }
 </style>

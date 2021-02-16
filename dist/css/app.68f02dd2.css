@@ -1,0 +1,1 @@
+.ql-container{font-family:monospace}.ql-editor{counter-reset:line;padding-left:0}.ql-editor p:before{counter-increment:line;content:counter(line);display:inline-block;border-right:1px solid #ddd;padding:0 .5em;margin-right:.5em;color:#888}.content{margin:20px;padding:10px;background-color:#e6dede;border-radius:5px}
